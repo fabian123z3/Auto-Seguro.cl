@@ -38,7 +38,7 @@ export const SeccionContacto = () => {
 
           {/* Ubicación */}
           <a
-            href="https://maps.app.goo.gl/iwHyvPAXEoPAXE?g_st=am"
+            href="https://maps.google.com/?q=Calle+El+Roble+130+Chillan"
             target="_blank"
             rel="noopener noreferrer"
             className="bg-auto-seguro-rojo hover:bg-red-700 text-white p-4 md:p-8 rounded-xl text-center shadow-lg transform transition-all hover:scale-105 block"
