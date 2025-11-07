@@ -10,7 +10,7 @@ export const Encabezado = () => {
           <img 
             src={logoAutoSeguro} 
             alt="Auto-Seguro.cl Logo" 
-            className="h-10 md:h-14 lg:h-36 w-auto"
+            className="h-12 md:h-14 lg:h-36 w-auto"
           />
         </a>
         
@@ -45,9 +45,9 @@ export const Encabezado = () => {
           href={DATOS_EMPRESA.whatsappLink}
           target="_blank"
           rel="noopener noreferrer"
-          className="bg-auto-seguro-verde hover:bg-green-600 text-white px-3 md:px-4 py-2 rounded-lg font-semibold transition-colors flex items-center gap-2 text-sm md:text-base"
+          className="bg-auto-seguro-verde hover:bg-green-600 text-white px-2 md:px-4 py-2 rounded-lg font-semibold transition-colors flex items-center gap-1 md:gap-2 text-xs md:text-base"
         >
-          <img src={logoWhatsApp} alt="WhatsApp" className="w-5 h-5" />
+          <img src={logoWhatsApp} alt="WhatsApp" className="w-4 h-4 md:w-5 md:h-5" />
           <span className="hidden md:inline">WhatsApp</span>
         </a>
       </div>

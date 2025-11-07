@@ -6,9 +6,9 @@ export const PiePagina = () => {
   const añoActual = new Date().getFullYear();
 
   return (
-    <footer className="bg-auto-seguro-negro text-white py-8 md:py-12 px-4 md:px-6 lg:px-8">
+    <footer className="bg-auto-seguro-negro text-white py-6 md:py-12 px-4 md:px-6 lg:px-8">
       <div className="max-w-7xl mx-auto">
-        <div className="grid md:grid-cols-4 gap-6 md:gap-8 mb-6 md:mb-8">
+        <div className="grid md:grid-cols-4 gap-4 md:gap-8 mb-4 md:mb-8">
           {/* Logo y descripción */}
           <div className="md:col-span-2">
             <div className="mb-4">
@@ -26,7 +26,7 @@ export const PiePagina = () => {
 
           {/* Enlaces rápidos */}
           <div>
-            <h4 className="text-base md:text-lg font-bold mb-4">Enlaces Rápidos</h4>
+            <h4 className="text-sm md:text-lg font-bold mb-3 md:mb-4">Enlaces Rápidos</h4>
             <ul className="space-y-2">
               <li>
                 <a href="#inicio" className="text-gray-400 hover:text-auto-seguro-rojo transition-colors">
@@ -53,7 +53,7 @@ export const PiePagina = () => {
 
           {/* Contacto */}
           <div>
-            <h4 className="text-base md:text-lg font-bold mb-4">Contacto</h4>
+            <h4 className="text-sm md:text-lg font-bold mb-3 md:mb-4">Contacto</h4>
             <ul className="space-y-2 text-gray-400">
               <li className="flex items-center gap-2">
                 <span>📞</span>
