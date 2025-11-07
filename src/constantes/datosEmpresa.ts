@@ -3,7 +3,7 @@
 export const DATOS_EMPRESA = {
   nombre: 'Auto-Seguro.cl',
   telefono: '+56 9 30006133',
-  whatsappLink: 'https://wa.me/c/56930006133',
+  whatsappLink: 'https://wa.me/p/25061768396808932/56930006133',
   direccion: 'Calle El Roble 130 - Chillán',
 } as const;
 

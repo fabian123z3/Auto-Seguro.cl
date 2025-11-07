@@ -37,12 +37,17 @@ export const SeccionContacto = () => {
           </div>
 
           {/* Ubicación */}
-          <div className="bg-auto-seguro-rojo text-white p-4 md:p-8 rounded-xl text-center shadow-lg">
+          <a
+            href="https://maps.app.goo.gl/iwHyvPAXEoPAXE?g_st=am"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="bg-auto-seguro-rojo hover:bg-red-700 text-white p-4 md:p-8 rounded-xl text-center shadow-lg transform transition-all hover:scale-105 block"
+          >
             <div className="text-4xl md:text-5xl mb-4">📍</div>
             <h3 className="text-xl md:text-2xl font-bold mb-2">Ubicación</h3>
             <p className="text-lg">{DATOS_EMPRESA.direccion}</p>
-            <p className="mt-4 text-sm opacity-90">Visítanos en nuestro local</p>
-          </div>
+            <p className="mt-4 text-sm opacity-90">Presiona para ver nuestro local</p>
+          </a>
         </div>
 
         {/* Llamado a la acción final */}
