@@ -14,7 +14,7 @@ export const SeccionContacto = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 md:gap-8">
+        <div className="grid md:grid-cols-2 gap-4 md:gap-8">
           {/* WhatsApp */}
           <a
             href={DATOS_EMPRESA.whatsappLink}
@@ -27,14 +27,6 @@ export const SeccionContacto = () => {
             <p className="text-lg">{DATOS_EMPRESA.telefono}</p>
             <p className="mt-4 text-sm opacity-90">Click para chatear</p>
           </a>
-
-          {/* Teléfono */}
-          <div className="bg-auto-seguro-negro text-white p-4 md:p-8 rounded-xl text-center shadow-lg">
-            <div className="text-4xl md:text-5xl mb-4">📞</div>
-            <h3 className="text-xl md:text-2xl font-bold mb-2">Teléfono</h3>
-            <p className="text-lg">{DATOS_EMPRESA.telefono}</p>
-            <p className="mt-4 text-sm opacity-90">Lunes a Sábado: 9:00 - 19:00</p>
-          </div>
 
           {/* Ubicación */}
           <a
